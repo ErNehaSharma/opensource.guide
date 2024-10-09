@@ -1,0 +1,75 @@
+To create a website link on GitHub, you can use GitHub Pages, which allows you to host a static website directly from a GitHub repository. Here’s how you can do it:
+
+1. Create a GitHub Repository
+Go to GitHub and log in.
+Click the "New" button (or "New Repository").
+Give your repository a name (e.g., my-website).
+Make sure the repository is public if you want others to access the site.
+Check the box for Initialize this repository with a README.
+Click "Create repository."
+2. Add Your Website Files
+If you have a static site (HTML, CSS, JavaScript), you can upload the files.
+If you want to use a tool like Jekyll (supported by GitHub Pages), you can create the necessary files.
+You can either:
+
+Upload files manually by clicking on "Upload files" or
+Clone the repository locally, add files, and push them:
+code
+git clone https://github.com/your-username/my-website.git
+cd my-website
+# Add your HTML, CSS, JS files here
+git add .
+git commit -m "Initial website commit"
+git push origin main
+3. Enable GitHub Pages
+Go to the repository’s Settings (click on the "Settings" tab).
+Scroll down to the "Pages" section (usually under "Code and automation").
+In the "Source" dropdown, select the branch that contains your website files (usually main or master).
+If needed, select the root or a folder (such as /docs) where your site files are located.
+Click Save.
+4. Access Your Website
+After enabling GitHub Pages, GitHub will generate a URL for your site. This is typically in the format:
+code
+https://your-username.github.io/repository-name/
+You’ll be able to view your site at this link.
+Example
+If your GitHub username is john-doe and your repository is my-website, your website will be available at:
+code
+https://john-doe.github.io/my-website/
+5. Custom Domain (Optional)
+If you have a custom domain, you can add it in the Custom domain field in the GitHub Pages settings.
+
+That's it! Your website will now be live on GitHub.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Creating a Website on GitHub: A Quick Guide for Beginners
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you're new to GitHub, building your first website might seem tricky, but it’s actually quite simple! Follow these steps to get started:
+
+Create a GitHub Account: Sign up on GitHub if you haven’t already.
+
+Create a New Repository:
+
+Click New Repository.
+Name it something like my-website.
+Check Public and Add a README file.
+Click Create Repository.
+Upload Your Website Files:
+
+If you have HTML, CSS, or JavaScript files ready, upload them directly to the repository.
+Alternatively, you can create files directly on GitHub (click Add file → Create new file).
+Enable GitHub Pages:
+
+Go to your repository’s Settings.
+Scroll down to the Pages section.
+Under Source, select your main branch and save.
+Access Your Website:
+
+GitHub will provide a link like: https://username.github.io/repository-name/.
+This is your live website!
+
+Common Issues & Tips:
+
+404 Errors: Make sure all files are in the main branch and named correctly.
+File Not Displaying?: Ensure your index.html is in the root directory (the main folder).
+Be Patient: Sometimes updates take a few minutes to show up.
+With just a few simple steps, you can create and share your own website using GitHub Pages!
